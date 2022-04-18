@@ -1,0 +1,188 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+a {
+    color: green;
+    margin-bottom: 2vh;
+}
+
+
+body {
+    background-color: rgba(hsl(21, 59%, 94%));
+    width: 100%;
+    font-family: 'Fira Sans';
+    font-weight: 100;
+}
+
+.page-home {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgba(111,61,65,255);
+}
+.page-home header {
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   border-bottom: 1px solid rgb(111,61,65,255);
+}
+
+.page-home header h2 {
+    font-size: 40px;
+    margin-bottom: 4vh;
+}
+
+.bio {
+    display: flex;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 12vh;
+    border-bottom: 1px solid rgb(111,61,65,255);
+
+}
+
+.bio h2 {
+    font-size: 50px;
+    margin: 5%;
+}
+
+.bio h3 {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    
+}
+
+.produtos {
+    position: relative;
+    top: 30vh;
+    font-size: 50px;
+}
+
+.produtos h3 {
+    padding: 30px;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+}
+
+.produtos h5 {
+    padding: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 80px;
+    
+}
+
+
+.produtos img {
+    width: 350px;
+    margin-bottom: 10px;
+}
+
+.produtos figure {
+    border-bottom: 0.5px solid black;
+}
+
+.produtos figcaption {
+    display: flex;
+    font-size: 35px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    justify-content: center;
+   
+}
+
+.limpeza {
+    margin-top: 10vh;
+}
+
+.limpeza h4 {
+    font-size: 20px;
+    font-weight :bold;
+    text-shadow: 1px 2px 5px rgb(121, 114, 114);
+    color: green;
+}
+
+#prod {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#prod img{
+    width: 35px;
+}
+
+#prod span{
+    width: 50px;
+}
+
+.parceiros {
+    display: flex;
+    align-items: center;
+    margin-top: 10vh;
+    align-content: center;
+    justify-content: space-between;
+    justify-items: center; 
+}
+
+.parceiros h3 {
+    display: flex;
+    font-size: 28px ;
+    /* text-decoration: underline; */
+}
+
+.parceiros a {
+    margin-left: 4vw;
+}
+
+.parceiros img {
+    width: 155px;
+}
+
+#rd a {
+    margin-left: 2vh;
+}
+
+#rd a {
+    border-right: 0.2px solid black;
+}
+
+.bio {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-top: 12vh;
+    border-bottom: 1px solid rgb(111,61,65,255);
+
+}
+
+#rodape {
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    position: relative;
+    font-size: 20px;
+}
+
+
+
+

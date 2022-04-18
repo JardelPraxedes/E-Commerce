@@ -1,0 +1,135 @@
+@media (max-width: 800px ) {
+.produtos h5 {
+  font-size: 33px;
+}
+  .page-home {
+    margin-top: 10vh;
+  }
+
+  .page-home header h2 {
+    margin-bottom: 30vh;
+  }
+
+  header img {
+      width: 300px;
+      margin-bottom: 50px;
+      margin-top: 20px;
+
+  }
+
+  .page-home header h2 {
+      font-size: 30px;
+      margin-top: -30px;
+  }
+
+  .produtos img {
+    width: 200px;
+  }
+  .bio h2 {
+    font-size: 38px;
+  }
+
+  .parceiros h3 {
+    font-size: 20px;
+  }
+
+  .parceiros img {
+    width: 120px;
+  }
+
+  .promo h3 {
+    font-size: 25px;
+  }
+}
+
+.promo h6 {
+  font-size: 20px;
+}
+
+@media (max-width: 535px) {
+  .parceiros {
+    margin-right: 10vw;
+  }
+
+}
+
+@media (max-width: 535px) {
+
+  .page-home {
+    margin-top: 20vh;
+  }
+
+  .page-home header h2 {
+    margin-bottom: 30vh;
+  }
+
+  .parceiros {
+    display: flex;
+    flex-direction: column;
+    margin-right: 3vw;
+  }
+
+  .parceiros img {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  #rd a {
+    border: none;
+    margin-bottom: 20vh;
+}
+}
+
+@media (max-width: 577px) {
+  .page-home header {
+    border: none;
+  }
+
+  .bio h2 {
+    font-size: 38px;
+  }
+
+  .bio img {
+    width: 220px;
+  }
+
+  .bio h3 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 470px) {
+  
+  .bio {
+    width: 80%;
+  }
+  .bio h2 {
+    font-size: 35px;
+  }
+
+  .bio h3 {
+    font-size: 18px;
+  }    
+
+  .bio img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  .page-home header h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10vh;
+  }
+
+  .bio h2 {
+    font-size: 25px;
+  }
+
+  .produtos h5 {
+    font-size: 35px;
+    text-align: center;
+  }
+  
+}
